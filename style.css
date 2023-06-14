@@ -1,4 +1,16 @@
-section{
-background-color: rgb(54, 142, 112);
-ba
-  }
+body {
+  background-color: #e5e5e5;
+  color: #25282b;
+  text-align: center;
+}
+
+button {
+  border: none;
+  font-weight: bold;
+  background-color: none;
+  color: #ff5e84;
+}
+.fat {
+  background-color: #ff5e84;
+  color: white;
+}
