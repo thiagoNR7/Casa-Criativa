@@ -1,16 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat :wght@300;400;600;700;900 & display=swap');
+
+
+#modal.hiden{
+display: none;
+
+}
+
+a{ 
+color: #ff5e84;
+font-weight: bold;
+text-decoration: none;
+}
+a:hover {
+color: #ff5e84;
+font-weight: bold;
+text-decoration: underline;
+
+}
 body {
   background-color: #e5e5e5;
   color: #25282b;
-  text-align: center;
+
+  font-family: 'Montserrat', sans-serif;
+  margin: 0%;
 }
+
 
 button {
   border: none;
   font-weight: bold;
   background-color: none;
   color: #ff5e84;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
 }
-.fat {
+button:hover {
+text-decoration: underline;
+color: white;
+background-color: #ff5e84 ;
+}
+button.fat {
   background-color: #ff5e84;
+ width: 150px;
+ height: 40px;
+ border-radius: 10px;
   color: white;
+  box-shadow: 0px 8px 16px #ff5e84;
+}
+button.fat:hover{
+
+  text-decoration: none;
+}
+
+body #principal{
+max-width: 980px;
+margin: 40px auto;
+width: 90%;
+
+display: flex;
+
+}
+section #intro{
+width: 300px;
+
+}
+#button{
+display: flex;
+justify-content: space-evenly;
+
+}
+footer{
+margin-top: 15px;
+text-align: center;
+ }
+footer a{
+
+
+}
+
+main{
+margin: 32px 0px;
+}
+#last-ideias{
+
+margin-left: 50px;
+
+}
+p, .descricao{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+}
+
+.ideia{
+background-color: #ffff;
+display: flex;
+margin-bottom: 32px;
+border-radius: 8px;
+padding: 32px;
+width: 550px;
+box-shadow: 0 4px 16px -8px rgba 1,1,1, 0.1;
+}
+.ideia img{
+width: 60px;
+height: 60px;
+margin: 20px;
+}
+.ideia h3{
+margin: px;
+
+}
+.ideia p {
+margin: 8px 0;
+color: #777;
+}
+ .ideia .descricao{
+margin: 16px 0;
+font-family: 'Montserrat', sans-serif;
+ }
+ /*formulario modal*/
+
+#modal{
+
+  background-color: #ff5e84;
+  position: absolute;
+top: 0;
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#modal .menu{
+margin-top: 128px;
+color: white;
+}
+#modal .menu h1{
+
+  text-align: center;
+  text-transform: uppercase;
+}
+.menu form{
+max-width: 800px;
+width: 80%;
+margin: 0 auto;
+
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+ 
+}
+form input,
+form textarea{
+padding: 12px;
+box-sizing: border-box;
+border-radius: 7px;
+border: 1px solid #ff5e84;
+  width: 100%;
+  font-size: 16px;
+}
+
+
+
+form label{
+
+font-weight: 600px;
+line-height: 32px;
+letter-spacing: 0.7px;
+
+}
+form button{
+background-color: white;
+width: 150px;
+height: 40px;
+cursor: pointer;
+border-radius: 7px;
+
+}
+form button:hover{
+background-color: #0984e3;
+color: white;
+text-decoration: none;
+
 }

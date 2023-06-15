@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Casa Criativa</title>
   </head>
   <body>
@@ -35,17 +42,116 @@
         </section>
 
         <footer>
-          <a href="#">google.com.br</a> google
+          <p>Pesquise Novas ideias no <a href="#">google.com.br</a></p>
         </footer>
+      </section>
+      <section id="last-ideias">
+        <!--lista 1-->
+        <div class="ideia">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/4082/4082286.png"
+            alt="imagem da programação"
+          />
+          <div class="menu-ideia">
+            <h3>Cursos de Programação</h3>
+            <p>Estudo</p>
+            <div class="descricao">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eaque
+              alias excepturi quo, quos eligendi. Ducimus maxime tempore esse
+              placeat blanditiis, omnis repudiandae, quos dignissimos et
+              laudantium eligendi cum obcaecati.
+            </div>
+            <a href="#">Ir para ideia</a>
+          </div>
+        </div>
+        <!--lista 2-->
 
+        <div class="ideia">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1823/1823092.png"
+            alt="imagem de Exercícios"
+          />
 
+          <div class="menu-ideia">
+            <h3>Exercícios</h3>
+            <p>Saúde</p>
+            <div class="descricao">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eaque
+              alias excepturi quo, quos eligendi. Ducimus maxime tempore esse
+              placeat blanditiis, omnis repudiandae, quos dignissimos et
+              laudantium eligendi cum obcaecati.
+            </div>
 
-        <section id="last-ideias"></section>
+            <a href="#">Ir para ideia</a>
+          </div>
+        </div>
+
+        <!--lista 3-->
+
+        <div class="ideia">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/4742/4742476.png"
+            alt="imagem de meditação "
+          />
+
+          <div class="menu-ideia">
+            <h3>Meditação</h3>
+            <p>Mentalidade</p>
+            <div class="descricao">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eaque
+              alias excepturi quo, quos eligendi. Ducimus maxime tempore esse
+              placeat blanditiis, omnis repudiandae, quos dignissimos et
+              laudantium eligendi cum obcaecati.
+            </div>
+            <a href="#">Ir para ideia</a>
+          </div>
+        </div>
       </section>
     </div>
 
-    <script src="funcionalidades.js">
-    </script>
-    
+    <!--modal-->
+
+    <div id="modal" class="hiden">
+      <div class="menu">
+        <h1>Nova Ideia</h1>
+ 
+        <form action="">
+          <div class="input-embrulha">
+            <label for="title"> Titulo da Ideia</label>
+            <input type="text" name="title" />
+          </div>
+         
+          <div class="input-embrulha">
+            <label for="category"> Categoria</label>
+            <input type="text" name="categpry" />
+          </div>
+          
+          <div class="input-embrulha">
+            <label for="link"> </label> Link da imagem
+            <input type="text" name="imagem" />
+          
+          </div>
+          <div class="input-embrulha">
+             <label for="description">Descrição da Ideia</label>
+            <textarea name="description"  cols="30" rows="10"></textarea>
+          </div>
+          <div class="input-embrulha"> <label for="link"> Link da Ideia</label>
+            <input type="url" name="link" />
+          </div>
+         <button> Salvar</button>
+
+          
+
+
+         
+
+         
+
+         
+        </form>
+      </div>
+    </div>
+
+    <script src="funcionalidades.js"></script>
   </body>
 </html>
